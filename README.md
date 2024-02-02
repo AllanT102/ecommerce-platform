@@ -3,13 +3,19 @@
 Overview
 This repository houses an E-Commerce application developed using Java and Spring Boot, following a microservices architecture. The primary focus of this project is to provide a scalable and modular solution for building and managing various aspects of an online retail system.
 
+
+
 **High Level Architecture**
 
 ![image](https://github.com/AllanT102/ecommerce-platform/assets/92118801/97b664ae-b09a-4075-86a7-fafb6642ded1)
 
+
+
 **Technologies**
 
 Java, Spring Boot, MongoDB, MySQL, Apache Kafka, Docker, Elasticsearch, Kibana, Logstash
+
+
 
 **Services**
 
@@ -27,7 +33,10 @@ Java, Spring Boot, MongoDB, MySQL, Apache Kafka, Docker, Elasticsearch, Kibana, 
 
 **product-service**: Manages product-related information, including details, pricing, and availability.
 
+
+
 **ELK Stack Observability**
+
 The project incorporates the ELK (Elasticsearch, Logstash, Kibana) stack for observability and monitoring. This setup enhances the project's ability to track and analyze log data, providing insights into system behavior and aiding in troubleshooting and performance optimization.
 
 Key Observability Features:
