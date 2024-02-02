@@ -42,5 +42,13 @@ The project incorporates the ELK (Elasticsearch, Logstash, Kibana) stack for obs
 Key Observability Features:
 
 Elasticsearch: Centralized storage for logs, enabling efficient search and retrieval of relevant information.
+
 Logstash: Configured to parse and forward log data to Elasticsearch, ensuring proper indexing and structuring of logs.
+
 Kibana: Empowers users to visualize and explore log data through interactive dashboards, facilitating effective monitoring and analysis.
+
+
+
+**Future Considerations**
+- Dockerize entire application to be deployed on AWS
+- Deploy microservice cluster on kubernetes to handle large scale
