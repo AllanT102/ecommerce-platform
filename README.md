@@ -14,11 +14,17 @@ Java, Spring Boot, MongoDB, MySQL, Apache Kafka, Docker, Elasticsearch, Kibana, 
 **Services**
 
 **api-gateway-service**: Serves as the entry point for external clients, routing requests to appropriate microservices.
+
 **configuration-server**: Manages configuration settings for all microservices, ensuring centralized and dynamic configuration management.
+
 **discovery-server**: Implements service discovery for the microservices, enabling automatic detection and registration of services within the ecosystem.
+
 **inventory-service**: Handles inventory management, tracking product availability and stock levels.
+
 **notification-service**: Utilizes Kafka as a messaging system to implement notifications, ensuring real-time communication with users.
+
 **order-service**: Manages the order processing workflow, handling customer orders and coordinating with other services.
+
 **product-service**: Manages product-related information, including details, pricing, and availability.
 
 **ELK Stack Observability**
